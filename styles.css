@@ -1,3 +1,18 @@
-h1 {
-  color: yellowgreen;
+div::after {
+  content: " to front end course";
+}
+div::before {
+  content: "😀 ";
+}
+
+button {
+  animation: float 2000ms infinite alternate-reverse;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
